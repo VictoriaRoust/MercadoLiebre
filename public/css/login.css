@@ -1,0 +1,27 @@
+.login{
+    padding: 1.5rem 1rem;
+    width: 100%;
+    justify-content: center;
+}
+form.login p{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40vw;
+    align-items: center;
+}
+form.login imput {
+    width: 100%;
+    padding: .5rem;
+    border: 0;
+    border-radius: .25rem;
+}
+form.login button{
+    background-color: #03264C;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+}
+form.login button:hover{
+    background-color: #0022AA;
+}

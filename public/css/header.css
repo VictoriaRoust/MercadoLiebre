@@ -1,0 +1,152 @@
+header{
+    background-color: #EAC926;
+    display: flex;
+    flex-flow:row wrap;
+    width: 100vw;
+    align-items: center;
+    max-width: 100%;
+}
+
+header figure img{
+    height: auto;
+    width: 50vw;
+    display: flex;
+}
+  
+header form{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background-color: snow;
+
+}
+  
+header form input{
+    border: none;
+    outline: none;
+}
+  
+header form button{
+    border: none;
+    outline: none;
+}
+header nav{
+    display: flex;
+    }
+nav#main-menu {
+    display: none;
+    
+}
+nav#user-menu {
+    display: none;
+}
+  
+#burger-menu{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    width: 100vw;
+    justify-content: center;
+  }
+  
+#burger-menu a{
+    padding: .25rem;
+    background-color: #03264C;
+    border-radius: .25rem;
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-sizing: content-box;
+}
+a{
+    text-decoration: none;
+}
+
+header p{
+    margin: 1rem 0;
+    text-align: center;
+}
+@media (min-width: 361px) {
+    header {
+        height: auto;
+    }
+    nav.menu {
+        width: 49vw;
+    }
+    nav#main-menu {
+        display: flex;
+        color: black;
+        align-items: right;
+    }
+    nav#user-menu {
+        display:flex;
+        color: black;
+        align-items: left;
+    }
+    nav#burger-menu {
+        display: none;
+    }   
+    nav ul{
+        list-style: none;
+    }
+    header form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45vw;
+        background-color: snow;
+        }
+        header figur img{
+            width: 40vw;
+        }
+
+    }
+    @media (min-width: 769px) {
+        header {
+            justify-content: space-between;
+            height: 20vh;
+        }
+        nav#main-menu {
+            flex: auto;
+            display: flex;
+            margin-left: 1rem;
+            padding-left: 0.5rem;
+        }
+        nav#user-menu {
+            flex:auto;
+            display:flex;
+            text-align: right;
+            margin-left: 2rem;
+            padding-right: 0.5rem;
+        }
+        nav#burger-menu {
+            display: none;
+        } 
+        header nav ul {
+            flex: 1 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        header form{
+            margin-top: 2.5vh;
+            margin-bottom: 2.5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45vw;
+            background-color: snow;
+            }
+            header figure img{
+                width: 20vw;
+                }
+            header p {
+                width: 35vw;
+            }
+            
+    
+        }

@@ -1,0 +1,41 @@
+footer {
+    align-items: center;
+    justify-content: center;    
+}
+footer p{
+align-items: center;
+font-size: 12px;
+justify-content: center;
+color: #666;
+width: 100%;
+max-width: 100%;
+display: flex;
+}
+footer section p.copy{
+    color: #666;
+    justify-content: center;
+}
+
+footer h3{
+    align-items: center;
+    font-size: 12px;
+}
+footer section article{
+align-items: center;
+justify-content: center;
+color: #03264C;
+margin-bottom: 10px;
+display:flex;
+flex-direction: column;
+width: 100%;
+}
+@media (min-width: 769px){
+    footer section{
+        flex-direction: row;
+        display: flex;
+        }
+    footer article {
+        width: 32%;
+        margin: 2rem;
+    }
+}

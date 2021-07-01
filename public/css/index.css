@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    overflow-x: hidden;
+    width: 100vw;
+}
+ul li {
+    list-style:none;
+}
+  
+img{
+max-width: 100%;
+}
+
+section#banner figure {
+max-width: 100%;
+margin: 0%;
+}
+
+h4 {
+font-size: 24px;
+}
+section article img{
+max-width: 100%;
+}
+.descripcion {
+font-size: 1rem;
+width: 100vw;
+display: none;
+
+}
+.precio {
+font-size: 1.1rem;
+width: 30vw;
+}
+.descuento {
+font-size: 1rem;
+width: 70vw;
+color:#39b54a;
+}
+
+#producto {
+    width: 100vw;
+}
+.grilla {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+main article{
+    box-shadow: 0 0 1rem 0 rgba( 20,20,20,0.3);
+    width: 90vw;
+    padding: 0.625rem;
+    background: #ebebeb;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid #ebebeb;
+    margin: .75rem;
+  
+}
+.camioncito{
+    display: flex;
+    justify-content: flex-end;
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color:#39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+   }
+
+@media (min-width: 361px) {
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: auto;
+    }
+    .descripcion {
+        font-size: 1rem;
+        width: 100vw;
+        display: flex;       
+    }
+    .grilla {
+        display: flex;
+        flex-wrap: row wrap;
+    }
+    
+
+}
+@media (min-width: 768px) {
+    .grilla {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .grilla article {
+        width: 45%;
+    }
+    .grilla h4{
+        width: 100vw;
+        margin: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+@media (min-width: 1200px) {
+
+    .grilla article {
+        width: 23%;
+    }
+
+}

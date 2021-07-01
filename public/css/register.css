@@ -1,0 +1,26 @@
+
+form.register {
+    width: 60%;
+}
+form.register p {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40vw;
+    align-items: center;
+}
+form.register p.perfil {
+    display: flex;
+    flex-direction: row;
+}
+form.register p.perfil label {
+    margin: .5rem;
+}
+label.titulo {
+    width: 100%;
+}
+.titulo {
+    display: flex;
+}
+.categoria {
+    display: flex;
+}
